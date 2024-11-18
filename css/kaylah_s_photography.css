@@ -1,0 +1,23 @@
+/*CSS File For kaylah's photography website*/
+
+body{
+    background-color:#F8F8FF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    color:black;
+}
+
+nav{
+    width:95%;
+    height:75px;
+    background-color:#4682B4;
+}
+
+nav ul li{
+    color:#000000;
+    font-size:50px;
+    list-style-type:none;
+    float:left;
+}

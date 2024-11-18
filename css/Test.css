@@ -1,0 +1,52 @@
+/*CSS File For kaylah's photography website*/
+
+body{
+    background-color:#F8F8FF;
+    font-family: Garamond, serif;
+    font-size:20px;
+}
+
+h1{
+    color:black;
+    font-family:cursive;
+    font-size:30px;
+    text-align: center;
+}
+
+.navbar{
+    width:99%;
+    height:75px;
+    background-color:#4682B4;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: #4682B4;
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+}
+.navbar li{
+    float:left;
+}
+
+.navbar a{
+    color:#4682B4 ;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+
+.column{
+    float:left;
+    width: 33.33%;
+    padding:5px;
+}
+
+.row::after{
+    content:normal;
+    display: table;
+    clear: both;
+}
