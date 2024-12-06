@@ -3,50 +3,52 @@
 body{
     background-color:#F8F8FF;
     font-family: Garamond, serif;
-    font-size:20px;
+    font-size:40px;
 }
 
 h1{
     color:black;
     font-family:cursive;
-    font-size:30px;
-    text-align: center;
+    font-size:90px;
 }
 
-.navbar{
+h2{
+    color:black;
+    font-family: pauline-didone-variable, sans-serif;
+    font-style: normal;
+    font-variation-settings: "wght" 400;
+    font-size: 60px;
+}
+
+nav{
     width:99%;
-    height:75px;
+    height:200px;
     background-color:#4682B4;
 }
 
-.navbar ul{
-    list-style-type: none;
-    background-color: #4682B4;
-    padding: 0%;
-    margin: 0%;
-    overflow: hidden;
-}
-.navbar li{
+nav ul li{
+    color:#000000;
+    font-size:90px;
+    list-style-type:none;
     float:left;
 }
 
-.navbar a{
-    color:#4682B4 ;
-    text-decoration: none;
-    padding: 15px;
-    display: block;
-    text-align: center;
+table {
+    color:#000000;
+    font-size:50px;
+    list-style-type:none;
+    border-style: double;
 }
 
+.container {
+    align-items: center; 
+    float: left;
+  }
+  .image{
+      float: left;
+    padding: 5px;
+  }
 
-.column{
-    float:left;
-    width: 33.33%;
-    padding:5px;
-}
-
-.row::after{
-    content:normal;
-    display: table;
-    clear: both;
-}
+  .bander{
+    size: 400px;
+  }
